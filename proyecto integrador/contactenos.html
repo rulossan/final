@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Centro Médico San Patricio</title>
+</head>
+<body>
+    <div class="menu">
+        <header class="header">
+            <div class="logo">
+                <div class="imagen">
+                <img src="./imagenes/logo.jpg" alt="imagen del logo del centro medico" width="130" height="100">
+            </div>
+            </div>
+            <input type="checkbox" id="toggle">
+            <label for="toggle"><img src="./imagenes/menu (1).svg" alt="Menu"></label>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="#">Usuario</a>
+                        <ul>
+                            <li><a href="./usuario.html">Ingresar</a></li>
+                            <li><a href="./usuarionuevo.html">Registrate</a></li>
+                            </li>
+                        </ul>
+                        <li><a href="#">Especialidades</a>
+                        <ul>
+                            <li><a href="#">Gastroenterología</a></li>
+                            <li><a href="#">Ginecología</a></li>
+                            <li><a href="#">Ortopedía</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contactenos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="contenedor">
+        <h1 class="tit">Contáctenos</h1>
+        <div class="parrafo">
+        <p>Envíanos tus felicitaciones, sugerencias, reclamos o inquietudes.</p>
+        <p>Por favor ingresa tus datos de contacto para solicitar información o enviar un mensaje.</p>
+        </div>
+    <div class="con">
+        <div class="nom">
+            <label for="Nombre">Nombre</label>
+            <input type="text"name="Nombre" size="50">
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="Apellido" size="50">
+            <label for="email">Correo Electronico</label>
+            <input type="email" name="email" id="email" size="40">
+        <br>
+        <br>
+        <br>
+            <input type="button" name="enviar" id="enviar" value="enviar">
+    </div>
+    <div class="nom">
+            <h2>Selecciona tu genero </h2>
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="Femenino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="Masculino">
+    <br>
+            <label for="country">Ciudad</label>
+            <input type="country" name="country" id="country">
+    <br>
+        <h2>Observaciones</h>
+            <textarea name="Observaciones" id="Observaciones" cols="40" rows="10"></textarea>
+    </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

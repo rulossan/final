@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Centro Médico San Patricio</title>
+</head>
+<body>
+    <div class="menu">
+        <header class="header">
+            <div class="logo">
+                <div class="imagen">
+                <img src="./imagenes/logo.jpg" alt="imagen del logo del centro medico" width="130" height="100">
+            </div>
+            </div>
+            <input type="checkbox" id="toggle">
+            <label for="toggle"><img src="./imagenes/menu (1).svg" alt="Menu"></label>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="#">Usuario</a>
+                        <ul>
+                            <li><a href="./usuario.html">Ingresar</a></li>
+                            <li><a href="./usuarionuevo.html">Registrate</a></li>
+                    </li>
+                    </ul>
+                        <li><a href="#">Especialidades</a>
+                        <ul>
+                            <li><a href="#">Gastroenterología</a></li>
+                            <li><a href="#">Ginecología</a></li>
+                            <li><a href="#">Ortopedía</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./contactenos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="contenedor3">
+        <h1>Regístrate</h1>
+        <div class="con3">
+            <div class="nom3">
+            <label for="Nombre">Nombre</label>
+            <input type="text"name="Nombre" size="50">
+            <br>
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="Apellido" size="50">
+            <br>
+            <label for="Apellido">Cédula</label>
+            <input type="number" name="Cedula" size="13">
+            <br>
+            <label for="email">Correo Electronico</label>
+            <input type="email" name="email" id="email" size="40">
+            <br>
+            <label for="Contraseña">Contraseña</label>
+            <input type="password" placeholder="Contraseña">
+            <br>
+            <label for="Contraseña">Repite Contraseña</label>
+            <input type="password" placeholder="Contraseña">
+            <br>
+            <input type="button" name="enviar" id="enviar" value="Registrar">
+            <input type="reset" value="Borrar">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
